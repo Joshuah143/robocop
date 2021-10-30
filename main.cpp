@@ -25,8 +25,8 @@ int main() {
   MotorGroup1.setStopping(brake);
   MotorGroup3.setStopping(brake);
   while (true){
-    MotorGroup1.setVelocity(Controller1.Axis1.position(percent), percent);
-    MotorGroup3.setVelocity(Controller1.Axis1.position(percent), percent);
+    MotorGroup1.setVelocity(Controller1.Axis3.position(percent), percent);
+    MotorGroup3.setVelocity(Controller1.Axis2.position(percent), percent);
     if (Controller1.ButtonX.pressing()){
       MotorGroup1.stop();
       MotorGroup3.stop();
@@ -34,5 +34,4 @@ int main() {
     }
     wait(5, msec);
   }
-  
 }
