@@ -2,15 +2,15 @@
 The source for our Vex V5 robot
 
 ## Greg:
-![Our robot](https://github.com/Joshuah143/robocop/blob/1921c61fae3c8f5f43bcf4f1c4acca42376a9b16/img.png)
+![Our robot](https://github.com/Joshuah143/robocop/blob/1921c61fae3c8f5f43bcf4f1c4acca42376a9b16/img.png "GREG")
 
 # Resources:
 
- - (drive folder)[https://drive.google.com/open?id=127Mzc9Ae0EIo83zuiMaaNYiwo3xQIhEh&authuser=joshuah143%40educbe.ca&usp=drive_fs]
- - (vex site)[https://www.vexrobotics.com/]
- - (vex discord)[]
- - (vexcode and vex downloads)[https://www.vexrobotics.com/vexcode-download]
- - (team discord)[]
+ - [drive folder](https://drive.google.com/open?id=127Mzc9Ae0EIo83zuiMaaNYiwo3xQIhEh&authuser=joshuah143%40educbe.ca&usp=drive_fs)
+ - [vex site](https://www.vexrobotics.com/)
+ - [vex discord]()
+ - [vexcode and vex downloads](https://www.vexrobotics.com/vexcode-download)
+ - [team discord]()
 
 # Remote:
 
