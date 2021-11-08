@@ -58,3 +58,11 @@ Note that if they seam reversed switch the cabels on the two lifting motors.
 |T2 | 16 |
 |T4 | 18 |
 |T1 | 19 |
+
+# Todo:
+
+ - [] fix axles on lifting arm
+ - [] add HS inserts to lifting motors
+ - [] attache new cables
+ - [] design ring pick up stuff
+ - [] test code and robot
