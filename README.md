@@ -47,3 +47,14 @@ sets the lift varieble to 2 so that the arm is lefted in the run loop when press
 sets the lift varieble to 2 so that the arm is lefted in the run loop when pressed. Set to 0 when released.
 
 Note that if they seam reversed switch the cabels on the two lifting motors.
+
+# Port mappings
+
+| Motor # | Port # | Desciption    |
+|:---|:---:|---:|
+|T8 | 14 |
+|T6 | 15 |
+|T5 | 17 |
+|T2 | 16 |
+|T4 | 18 |
+|T1 | 19 |
