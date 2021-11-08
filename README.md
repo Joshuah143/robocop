@@ -2,7 +2,7 @@
 The source for our Vex V5 robot
 
 ## Greg:
-![Our robot]()
+![Our robot](https://github.com/Joshuah143/robocop/blob/1921c61fae3c8f5f43bcf4f1c4acca42376a9b16/img.png)
 
 # Resources:
 
