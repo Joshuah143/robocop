@@ -8,9 +8,9 @@ The source for our Vex V5 robot
 
  - [drive folder](https://drive.google.com/open?id=127Mzc9Ae0EIo83zuiMaaNYiwo3xQIhEh&authuser=joshuah143%40educbe.ca&usp=drive_fs)
  - [vex site](https://www.vexrobotics.com/)
- - [vex discord]()
+ - [vex discord](https://discord.gg/KvU8BWwh)
  - [vexcode and vex downloads](https://www.vexrobotics.com/vexcode-download)
- - [team discord]()
+ - [team discord](https://discord.gg/7j5vRAp8)
 
 # Remote:
 
@@ -50,14 +50,14 @@ Note that if they seam reversed switch the cabels on the two lifting motors.
 
 # Port mappings
 
-| **Motor #** | **Port #** | **Desciption**    |
+|**Motor #**|**Port #**|**Desciption**|
 |:---|:---:|---:|
-|T8 | 14 | 
-|T6 | 15 |
-|T5 | 17 |
-|T2 | 16 |
-|T4 | 18 |
-|T1 | 19 |
+|T8|14| 
+|T6|15|
+|T5|17|
+|T2|16|
+|T4|18|
+|T1|19|
 
 # Todo:
 
@@ -66,3 +66,4 @@ Note that if they seam reversed switch the cabels on the two lifting motors.
  - [ ] attache new cables
  - [ ] design ring pick up stuff
  - [ ] test code and robot
+ - [ ] add auto robot mode
