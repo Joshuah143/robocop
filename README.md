@@ -2,7 +2,7 @@
 The source for our Vex V5 robot
 
 ## Greg:
-![Our robot](https://github.com/Joshuah143/robocop/blob/1921c61fae3c8f5f43bcf4f1c4acca42376a9b16/img.png "GREG")
+[![Our robot](https://github.com/Joshuah143/robocop/blob/main/img.png "GREG")](https://github.com/Joshuah143/robocop)
 
 # Resources:
 
@@ -62,6 +62,7 @@ Note that if they seam reversed switch the cabels on the two lifting motors.
 # Todo:
 
  - [ ] fix axles on lifting arm
+ - [ ] switch lifting arms to metal gears
  - [ ] add HS inserts to lifting motors
  - [ ] attache new cables
  - [ ] design ring pick up stuff
