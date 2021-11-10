@@ -51,7 +51,7 @@ Note that if they seam reversed switch the cabels on the two lifting motors.
 # Port mappings
 
 |**Motor #**|**Port #**|**Desciption**|
-|:---|:---:|---:|
+|:---:|:---:|:---|
 |T8|14| 
 |T6|15|
 |T5|17|
