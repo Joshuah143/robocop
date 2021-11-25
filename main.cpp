@@ -38,6 +38,7 @@ namespace run_cofigs{
   int spin_lift = 0; // 0=stay, 2=up, 1=down
   string prefix = "N"; //N=none, M=manual, A=autonomouse
   string n_m_message = "";
+  int lift_spin_magnitude = 30;
 }
 
 #define screen_print Controller1.Screen.print
@@ -102,7 +103,6 @@ void lift_stop() {
 }
 
 void run_lift(){
-  int lift_spin_magnitude = 15; // in intager percent
   if (spin_lift == 0) {
     lift_motors.stop();
   }
@@ -133,6 +133,15 @@ void run_drive(){
   }
 }
 
+
+void increase_lift_speed (){
+  lift_spin_magnitude += 5;
+}
+
+void decrease_lift_speed (){
+  lift_spin_magnitude -= 5;
+}
+
 void manual(){
   prefix = "M";
   left_wheels.setStopping(coast);
@@ -146,6 +155,8 @@ void manual(){
   Controller1.ButtonR2.pressed(lift_down);
   Controller1.ButtonR1.released(lift_stop);
   Controller1.ButtonR2.released(lift_stop);
+  Controller1.ButtonL1.pressed(increase_lift_speed);
+  Controller1.ButtonL2.pressed(decrease_lift_speed);
   while ( true ){
     run_drive();
     run_lift();
